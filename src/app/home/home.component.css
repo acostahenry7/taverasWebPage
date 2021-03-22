@@ -1,0 +1,20 @@
+
+.carousel__img img{
+  image-resolution: from-image;
+  object-fit: cover;
+  width: 100%;
+  height: 500px
+}
+
+
+@media screen and (max-width: 800px){
+  .carousel__img img {
+    height: 250px
+  }
+}
+
+@media screen and (max-width: 360px){
+  .carousel__img img {
+    height: 200px
+  }
+}

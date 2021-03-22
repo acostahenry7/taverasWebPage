@@ -1,0 +1,26 @@
+.custom__search{
+    border: 1px solid #aaa;
+    font-size: 16px;
+    padding: 10px 10px;
+    background: #fff;
+    padding-left: 40px;
+    border-radius: 20px;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+
+.dropdown-menu a {
+
+}
+
+#hello{
+   display: none;
+}
+
+@media screen and (max-width: 576px){
+  #hello{
+    color: black;
+    display: block
+  }
+}

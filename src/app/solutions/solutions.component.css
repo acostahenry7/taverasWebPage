@@ -1,0 +1,48 @@
+
+
+
+#sol_img{
+  object-fit: cover;
+  width: 100%;
+  height: 600px
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+#back_to_top {
+  margin-left: 94%;
+  border-radius:50%;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px){
+
+  #sol_img {
+    height: 190px;
+    object-fit:fill;
+  }
+
+  #back_to_top {
+    margin-left: 83%;
+  }
+}
+
+@media screen and (max-width: 360px){
+
+  #sol_img{
+      height: 160px;
+      object-fit:fill;
+  }
+
+  .section_4 section{
+    margin-top: 40px;
+  }
+
+  #back_to_top {
+    margin-left: 80%;
+  }
+}

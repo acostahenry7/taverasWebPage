@@ -1,0 +1,78 @@
+.circle__icons {
+  margin-top: 3%;
+}
+
+.circle__icons img {
+  margin: 0 auto 7px auto;
+  width: 190px;
+  height: 190px;
+  padding:30px;
+  border-radius: 50%;
+  font-size: 140px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms;
+  color: #1B4F72;
+  outline: none
+}
+
+
+
+.circle__icons p {
+  text-align: center;
+  margin: 4px 0 0 7px;
+  font-size: 18px
+}
+
+.icon-box{
+  border-right: solid 1px  black;
+}
+
+.box {
+  margin-top: -111px;
+  background-size: cover;
+}
+
+.menu__box{
+  padding: 100px 15px
+}
+
+.circle__icons img{
+  transition: 600ms;
+  object-fit: cover
+}
+
+
+
+
+.circle__icons__bulb img:hover{
+  transform: scale(1.2);
+}
+
+.circle__icons__dollar img:hover{
+  transform: scale(1.2);
+}
+
+.circle__icons__car img:hover{
+  transform: scale(1.2);
+}
+
+.circle__icons__bank img:hover{
+  transform: scale(1.2);
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: black;
+  margin-top: 50px
+}
+
+
+@media screen and (max-width: 576px){
+  .icon-box{
+    border-right: none
+  }
+}
